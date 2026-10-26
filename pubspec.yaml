@@ -1,0 +1,33 @@
+name: prism_updater
+description: >-
+  Cross-platform in-app update experience for Flutter — version checks against
+  any source, force-update and soft-update screens, min-version gating, and a
+  headless controller. Android, iOS, web, and Windows. Part of the Prism
+  package family.
+version: 0.1.0
+repository: https://github.com/awaisdev5765/prism_updater
+issue_tracker: https://github.com/awaisdev5765/prism_updater/issues
+topics:
+  - update
+  - version
+  - upgrade
+  - widget
+  - ui
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
